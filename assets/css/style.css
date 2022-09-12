@@ -74,7 +74,7 @@
 }
 
 #headshot {
-  padding-left: 20px;
+  padding-left: 30px;
   height: 100px;
 }
 
@@ -82,7 +82,7 @@
   min-width: 120px;
   max-width: 120px;
   text-align: right;
-  padding-right: 20px;
+  padding-right: 30px;
   border-right: black 2px solid;
   font-weight: bold;
 }
@@ -96,7 +96,7 @@
   flex-wrap: wrap;
   gap: 5px;
   align-content: center;
-  justify-content: center;
+  justify-content: flex-start;
 } 
 
 .project-img {
