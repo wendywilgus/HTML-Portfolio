@@ -102,18 +102,13 @@
   justify-content: flex-start;
 } 
 
-#surf {
+#Horiseon {
   border-style: solid;
   border-color: aquamarine;
   border-width: 5px;
   height: 200px;
   width: 400px;
-}
-
-/* Container holding the image and the text */
-.container {
-  display: flex;position: relative;
-  justify-content: space-evenly;
+  object-fit: cover;
 }
 
 /* Bottom left text */
@@ -126,13 +121,58 @@
   padding-right: 20px;
   background-color: aquamarine;
 }
+
 #other-img  {
   border-style: solid;
   border-color: aquamarine;
   border-width: 5px;
   height: 100px;
   width: 200px;
+  object-fit: cover;
 }
+
+.container {
+  position: relative;
+  justify-content: space-evenly;
+}
+
+
+/* .footer {
+  flex: 1;
+  grid-template-rows: auto 1fr auto;
+  height: 10px;
+  margin: 0;
+  padding: 20px;
+}
+
+.list-inline  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-width: 500px;
+}
+
+#list-inline-item  {
+  list-style-type: none;
+  word-spacing: 100px;
+} */
+
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: space-evenly;
+  text-align:start;
+  align-items: stretch;
+  align-self: center;
+  bottom: 0;
+  left: 0px;
+  height: 60px;
+  margin: 20px; */
+
+
+
+
+
 
 
 

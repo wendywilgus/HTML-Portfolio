@@ -19,7 +19,7 @@
                 <a href="#About-Me">About Me</a>
                 <a href="#Work">Work</a>
                 <a href="#Contact-Me">Contact Me</a>
-                <a href="https://docs.google.com/document/d/1l79wh6ujY27CmCrfPzNHlmI9thg5dTrNHu6qByBDIZU/edit?usp=sharing">Resume</a>
+                <a href="https://docs.google.com/document/d/1l79wh6ujY27CmCrfPzNHlmI9thg5dTrNHu6qByBDIZU/edit?usp=sharing" target="_blank">Resume</a>
             </nav>
         </section>
         <section class="hero">
@@ -30,18 +30,18 @@
 
     <main class="main">
       <section class="row-flex">
-          <aside class="aside-flex-item">About Me</aside>
+          <aside id="About-Me" class="aside-flex-item">About Me</aside>
           <img id="headshot" src="./assets/images/headshot.png" alt="Photo of Wendy Wilgus" id="about-img"/>
-          <content class="content-flex-item">I am newly certified in Full-Stack Development through Georgia Tech University.After teaching for fifteen years, I am excited to enter the tech field and begin working on projects and websites in the corporate world.</content>
+          <p class="content-flex-item">I am newly certified in Full-Stack Development through Georgia Tech University.After teaching for fifteen years, I am excited to enter the tech field and begin working on projects and websites in the corporate world.</p>
       </section>
 
       <section class="row-flex">
-        <aside class="aside-flex-item">Work</aside>
+        <aside id="Work" class="aside-flex-item">Work</aside>
         <div class="content-flex-item">
           <content class="content-flex-box">
             <figure class="container">
               <a href="https://wendywilgus.github.io/Horiseon-Challenge" target="_blank">
-              <img id="surf" src="./assets/images/digital-marketing-meeting.jpg" alt="Photo of Professionals in a Meeting"/>
+              <img id="Horiseon" src="./assets/images/digital-marketing-meeting.jpg" alt="Photo of Professionals in a Meeting"/>
                 <figcaption class="text-block">
                   <h4>Horiseon</h4>
                   <p style="font-size:50%">HTML/CSS </p>
@@ -49,7 +49,7 @@
             </figure></a>
           </content>
 
-          <content class="content-flex-box">
+          <content id="Contact-Me" class="content-flex-box">
             <figure class="container">
               <a href="https://wendywilgus.github.io/prework-study-guide/" target="_blank">
               <img id="other-img" src="./assets/images/puzzle.jpg" alt="Puzzle pieces"/>
@@ -95,15 +95,22 @@
       <section class="row-flex">
         <aside class="aside-flex-item">Contact Me</aside>
         <content class="content-flex-item">
-          <div class="container">
-              <a href="tel:7707138707" target="_blank">770-713-8707</a>
-                <a href="mailto:wilguswendy@gmail.com">wilguswendy@gmail.com</a>
-                <a href="https://github.com/wendywilgus" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/wendy-wilgus-750b00a1/" target="_blank">LinkedIn</a>
-                <a href="https://docs.google.com/document/d/1l79wh6ujY27CmCrfPzNHlmI9thg5dTrNHu6qByBDIZU/edit?usp=sharing" target="_blank">Resume</a>
-          </div>
+          <footer>
+              <ul>
+              <li><a href="tel:7707138707" target="_blank">770-713-8707</a>
+                <a href="mailto:wilguswendy@gmail.com">wilguswendy@gmail.com</a></li>
+
+              <li><a href="https://github.com/wendywilgus" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/wendy-wilgus-750b00a1/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://docs.google.com/document/d/1l79wh6ujY27CmCrfPzNHlmI9thg5dTrNHu6qByBDIZU/edit?usp=sharing" target="_blank">Resume</a></li>
+              </ul>
+            </footer>
+          
         </content>
       </section>
+    </div>
+
+
     </main>
   </div>
 </body>
