@@ -36,6 +36,8 @@ This project was completed as part of Georgia Tech's Full Stack Development Boot
 The following resources were helpful in researching best practices and problem-solving on the project.
 
 -HTML: <https://www.w3schools.com/html/html5_semantic_elements.asp>
+-HTML Hyperlinks:  <https://www.w3schools.com/html/html_links.asp>
+-HTML Textbox for Images: <https://www.w3schools.com/howto/howto_css_image_text_blocks.asp>
 
 -CSS: <https://developer.mozilla.org/en-US/docs/Web/CSS>
 ---
