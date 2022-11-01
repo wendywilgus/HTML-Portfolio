@@ -6,7 +6,7 @@ This project was to practice building a website from scratch using HTML and CSS.
 
 Solving the problems of this project taught me to better understand the possibilities of CSS and use flexbox to organize content. 
 
-Link to deployed site here: <https://wendywilgus.github.io/HTML-Portfolio/>
+Link to deployed site here: <
 ## Table of Contents
 
 - [Languages Used](#languages)
